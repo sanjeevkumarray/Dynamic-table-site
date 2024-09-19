@@ -1,38 +1,101 @@
+/* src/App.css */
+
+/* General container styling */
 .App {
-  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+table th, table td {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  text-align: left;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+td input {
+  width: 90%;
+  padding: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Form section styling */
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+/* Input and select styling */
+input, select {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+input[type="text"], input[type="number"] {
+  width: 150px;
+}
+
+select {
+  width: 160px;
+}
+
+/* Button styling */
+button {
+  background-color: #4CAF50;
   color: white;
+  padding: 10px 15px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background-color: #45a049;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Filter and Sort section */
+h4 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+/* Responsive design: Adjust layout for smaller screens */
+@media (max-width: 600px) {
+  input, select {
+    width: 100%;
+    margin-bottom: 10px;
   }
-  to {
-    transform: rotate(360deg);
+
+  td input {
+    width: 100%;
   }
 }
