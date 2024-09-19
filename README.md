@@ -18,7 +18,7 @@ To run this project locally, follow the steps below:
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/your-username/dynamic-table-sorting.git
+    git clone https://github.com/your-username/dynamic-table.git
     ```
 
 2. **Navigate to the Project Directory**:
