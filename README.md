@@ -1,4 +1,4 @@
-# Dynamic Table with Sorting
+# Dynamic Table
 
 This project is a dynamic table built with **React.js** that allows users to add, edit, filter, and sort data. It supports columns of both "string" and "number" types, offering a flexible way to manage tabular data.
 
