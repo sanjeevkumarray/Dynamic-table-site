@@ -23,7 +23,7 @@ To run this project locally, follow the steps below:
 
 2. **Navigate to the Project Directory**:
     ```bash
-    cd dynamic-table-sorting
+    cd dynamic-table
     ```
 
 3. **Install Project Dependencies**:
